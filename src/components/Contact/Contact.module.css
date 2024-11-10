@@ -1,0 +1,23 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.item {
+  width: max-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  gap: 20px;
+}
+.btn {
+  background-color: #dbd9d9;
+}
+.span {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
