@@ -1,0 +1,37 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 220px;
+  padding: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  & span {
+    font-weight: bold;
+  }
+}
+.input {
+  border-radius: 8px;
+  padding: 5px;
+  box-shadow: 2px 2px 4px 4px lightgray;
+}
+.btn {
+  background-color: #dbd9d9;
+  width: max-content;
+  padding: 10px;
+  margin: auto;
+}
+.error {
+  color: red;
+  font-size: 10px;
+}
